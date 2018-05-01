@@ -4,7 +4,7 @@ import boto3
 import os
 import json
 
-queue_url = "https://sqs.us-east-1.amazonaws.com/085857639847/JenkinsWorldDemo.fifo" 
+queue_url = "https://sqs.eu-west-1.amazonaws.com/547823592358/Jenkins.fifo" 
 
 access_key = os.environ['AWS_ACCESS_KEY_ID']
 secret_key = os.environ['AWS_SECRET_ACCESS_KEY']
